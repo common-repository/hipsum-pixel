@@ -1,0 +1,91 @@
+/* UI in modal */
+#form-container-textgen, #form-container-imagegen {
+    max-width: 380px;
+}
+#TB_window, #TB_ajaxContent {
+    width: 790px !important;
+    /*height: auto;*/
+}
+#results textarea {
+    border: 0;
+    box-shadow: none !important;
+    width: 100%
+}
+.control-label {
+    display: inline !important;
+}
+input.slider {
+    border:0;
+    color:#f6931f;
+    font-weight:bold;
+    background: #fff !important;
+    box-shadow: none !important;
+}
+.radio-inline {
+    display: inline-block !important;
+}
+.block {
+    display: block !important;
+}
+#TB_ajaxContent {
+    overflow-x: hidden !important;
+    min-height: 700px !important;
+}
+span.hp-icon {
+    background: url(../img/icon.png) 50% 50% no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    top: 3px;
+    position: relative;
+}
+
+/* Native WordPress classes */
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+}
+
+.alignright {
+    float:right;
+    margin: 5px 0 20px 20px;
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 750px !important;
+    }
+}

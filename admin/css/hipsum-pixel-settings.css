@@ -1,0 +1,16 @@
+/* Options page */
+.wrap.hp-options label.image-source{
+    display: block;
+    margin-bottom: 10px;
+}
+.wrap.hp-options label.image-source span {
+    font-weight: normal;
+}
+
+.wrap.hp-options h3 {
+    margin-bottom: 0;
+}
+.wrap.hp-options p.description {
+    margin-left: 20px;
+    font-size: 90%;
+}
